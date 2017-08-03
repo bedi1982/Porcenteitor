@@ -17,6 +17,8 @@ public:
 
 private slots:
     void on_btn_calculate_clicked();
+    void SaveSettings();
+    void LoadSettings();
 
 private:
     Ui::MainWindow *ui;

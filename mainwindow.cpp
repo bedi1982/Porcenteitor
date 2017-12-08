@@ -31,8 +31,9 @@ void MainWindow::on_btn_calculate_clicked()
 
         ui->doubleSpinBox->setValue(result);
         ui->doubleSpinBox->setSuffix("%");
+        ui->line_val1->clear();
         ui->lineVal2->clear();
-        ui->lineVal2->setFocus();
+        ui->line_val1->setFocus();
     }
 }
 
